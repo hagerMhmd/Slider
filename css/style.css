@@ -1,0 +1,59 @@
+.item-caption
+{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    text-align: center;
+    padding: 5px;
+}
+.item-caption p
+{
+    font-size: 14px;
+}
+.item-caption h3
+{
+    font-size: 1.25rem;
+}
+.item
+{
+    cursor: pointer;
+    /* border-radius: 0.5rem; */
+}
+#lightBoxContainer
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#lightBoxItem
+{
+    width: 40%;
+    height: 400px;
+    background-image: url(../img/1.jpg);
+    background-size: 100% 100%;
+    padding: 20px;
+    position: relative;
+}
+#lightBoxItem i 
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+#close
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.w-fit-content{
+    width: fit-content;
+    /* margin: auto; */
+}
